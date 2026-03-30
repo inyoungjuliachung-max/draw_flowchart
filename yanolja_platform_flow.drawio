@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile version="21.0.0" host="app.diagrams.net">
+  <diagram id="yanolja-platform-flow" name="Yanolja Platform Flow">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1500" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ═══════════════════════════════════════
+             SECTION BAND BACKGROUNDS
+        ═══════════════════════════════════════ -->
+        <mxCell id="bg1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;strokeColor=#fde68a;opacity=60;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="5" y="12" width="1075" height="148" as="geometry" /></mxCell>
+        <mxCell id="bg2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;strokeColor=#f9a8d4;opacity=60;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="5" y="163" width="1075" height="148" as="geometry" /></mxCell>
+        <mxCell id="bg3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f3ff;strokeColor=#ddd6fe;opacity=60;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="5" y="314" width="1075" height="240" as="geometry" /></mxCell>
+        <mxCell id="bg4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#fed7aa;opacity=70;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="5" y="557" width="1075" height="155" as="geometry" /></mxCell>
+        <mxCell id="bg5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#cbd5e1;opacity=60;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="5" y="715" width="1075" height="175" as="geometry" /></mxCell>
+        <mxCell id="bg6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#bbf7d0;opacity=60;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="5" y="893" width="1075" height="185" as="geometry" /></mxCell>
+        <mxCell id="bg7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfeff;strokeColor=#a5f3fc;opacity=60;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="5" y="1081" width="1075" height="185" as="geometry" /></mxCell>
+
+        <!-- ═══════════════════════════════════════
+             SECTION LABELS
+        ═══════════════════════════════════════ -->
+        <mxCell id="lbl1" value="SUPPLY INPUT" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#92400e;" vertex="1" parent="1"><mxGeometry x="14" y="14" width="130" height="16" as="geometry" /></mxCell>
+        <mxCell id="lbl2" value="AI PLATFORM" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#9d174d;" vertex="1" parent="1"><mxGeometry x="14" y="165" width="130" height="16" as="geometry" /></mxCell>
+        <mxCell id="lbl3" value="BOOKING ENGINE + RATE INTELLIGENCE" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#5b21b6;" vertex="1" parent="1"><mxGeometry x="14" y="316" width="290" height="16" as="geometry" /></mxCell>
+        <mxCell id="lbl4" value="⭐  KEY INNOVATION — SYNTHETIC RATE LAYER" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#9a3412;" vertex="1" parent="1"><mxGeometry x="14" y="559" width="330" height="16" as="geometry" /></mxCell>
+        <mxCell id="lbl5" value="DATA FOUNDATION" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#334155;" vertex="1" parent="1"><mxGeometry x="14" y="717" width="150" height="16" as="geometry" /></mxCell>
+        <mxCell id="lbl6" value="AI NEGOTIATION LAYER" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#065f46;" vertex="1" parent="1"><mxGeometry x="14" y="895" width="190" height="16" as="geometry" /></mxCell>
+        <mxCell id="lbl7" value="D2C CONSUMER LAYER" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#0e7490;" vertex="1" parent="1"><mxGeometry x="14" y="1083" width="180" height="16" as="geometry" /></mxCell>
+
+        <!-- ═══════════════════════════════════════
+             MAIN FLOW NODES
+        ═══════════════════════════════════════ -->
+
+        <!-- 1. Hotels — parallelogram, amber -->
+        <mxCell id="hotels" value="🏨  Hotels / Supply"
+          style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#f59e0b;fontColor=#ffffff;strokeColor=#d97706;fontSize=13;fontStyle=1;shadow=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="220" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- 2. Hotel OS — rounded rect, pink -->
+        <mxCell id="hotelOS" value="🤖  Hotel OS&#xa;AI Operations Platform"
+          style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ec4899;fontColor=#ffffff;strokeColor=#db2777;fontSize=13;fontStyle=1;shadow=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="220" height="72" as="geometry" />
+        </mxCell>
+
+        <!-- 3. Parsec — cylinder, purple -->
+        <mxCell id="parsec" value="⚡  Parsec&#xa;B2B Booking Engine"
+          style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#8b5cf6;fontColor=#ffffff;strokeColor=#7c3aed;fontSize=12;fontStyle=1;shadow=1;boundedLbl=1;backgroundOutline=1;size=8;"
+          vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="195" height="82" as="geometry" />
+        </mxCell>
+
+        <!-- 4. Mize — rhombus, blue -->
+        <mxCell id="mize" value="📊  Mize&#xa;Rate Intelligence"
+          style="rhombus;whiteSpace=wrap;html=1;fillColor=#3b82f6;fontColor=#ffffff;strokeColor=#2563eb;fontSize=12;fontStyle=1;shadow=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="628" y="352" width="230" height="108" as="geometry" />
+        </mxCell>
+
+        <!-- 5. Synthetic Rate Layer — hexagon, orange, BOLD border -->
+        <mxCell id="synRate" value="✨  Synthetic Rate Layer&#xa;The Defensible Innovation"
+          style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#f97316;fontColor=#ffffff;strokeColor=#c2410c;fontSize=13;fontStyle=1;shadow=1;strokeWidth=3;fixedSize=1;size=18;"
+          vertex="1" parent="1">
+          <mxGeometry x="415" y="568" width="250" height="92" as="geometry" />
+        </mxCell>
+
+        <!-- 6. Data Hub — hexagon, dark slate -->
+        <mxCell id="dataHub" value="🗄️  Centralized Data Hub&#xa;Static · Dynamic · History"
+          style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#1e293b;fontColor=#ffffff;strokeColor=#0f172a;fontSize=13;fontStyle=1;shadow=1;fixedSize=1;size=18;"
+          vertex="1" parent="1">
+          <mxGeometry x="415" y="755" width="250" height="92" as="geometry" />
+        </mxCell>
+
+        <!-- 7. Hotel OS Agents — pill, pink -->
+        <mxCell id="hotelAgents" value="🤖  Hotel OS Agents&#xa;Supply-side AI"
+          style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ec4899;fontColor=#ffffff;strokeColor=#db2777;fontSize=12;fontStyle=1;shadow=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="215" y="925" width="210" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- 8. Conciio — pill, green -->
+        <mxCell id="conciio" value="✈️  Conciio&#xa;Traveler-side AI"
+          style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#10b981;fontColor=#ffffff;strokeColor=#059669;fontSize=12;fontStyle=1;shadow=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="655" y="925" width="210" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- 9. D2C Platform — rounded rect, cyan -->
+        <mxCell id="d2c" value="🛒  D2C Platform&#xa;Passport · Itinerary · Payments"
+          style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#06b6d4;fontColor=#ffffff;strokeColor=#0891b2;fontSize=13;fontStyle=1;shadow=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="415" y="1100" width="250" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ═══════════════════════════════════════
+             SPIDER WEB NODES — LEFT SIDE (x=8)
+        ═══════════════════════════════════════ -->
+
+        <!-- From Hotels -->
+        <mxCell id="h1" value="Direct hotel contracts (DC) via HPro" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;fontColor=#92400e;strokeColor=#fcd34d;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="36" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="h2" value="3rd party suppliers — Agoda, EPS, Booking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;fontColor=#92400e;strokeColor=#fcd34d;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="82" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="h3" value="Static + dynamic hotel data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffbeb;fontColor=#92400e;strokeColor=#fcd34d;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="128" width="205" height="36" as="geometry" /></mxCell>
+
+        <!-- From Parsec -->
+        <mxCell id="pa1" value="Founded 1996 — serves OTAs + tour ops" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f3ff;fontColor=#5b21b6;strokeColor=#c4b5fd;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="362" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="pa2" value="Holds direct hotel contracts — key asset" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f3ff;fontColor=#5b21b6;strokeColor=#c4b5fd;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="408" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="pa3" value="Needs full operational assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f3ff;fontColor=#5b21b6;strokeColor=#c4b5fd;fontSize=10;dashed=1;" vertex="1" parent="1"><mxGeometry x="8" y="454" width="205" height="36" as="geometry" /></mxCell>
+
+        <!-- From Synthetic Rate -->
+        <mxCell id="sr1" value="Buy no-cancel wholesale at lowest cost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;fontColor=#9a3412;strokeColor=#fdba74;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="562" width="210" height="36" as="geometry" /></mxCell>
+        <mxCell id="sr2" value="Manufacture refundable rate — sell at premium" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;fontColor=#9a3412;strokeColor=#fdba74;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="608" width="210" height="36" as="geometry" /></mxCell>
+        <mxCell id="sr3" value="Capture spread as merchant of record" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;fontColor=#9a3412;strokeColor=#fdba74;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="654" width="210" height="36" as="geometry" /></mxCell>
+
+        <!-- From D2C -->
+        <mxCell id="d1" value="Passport — persistent traveler identity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfeff;fontColor=#0e7490;strokeColor=#a5f3fc;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="1096" width="210" height="36" as="geometry" /></mxCell>
+        <mxCell id="d2" value="Apple Pay + Mobile ID + rewards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfeff;fontColor=#0e7490;strokeColor=#a5f3fc;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="1142" width="210" height="36" as="geometry" /></mxCell>
+        <mxCell id="d3" value="AI-personalized itinerary engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfeff;fontColor=#0e7490;strokeColor=#a5f3fc;fontSize=10;" vertex="1" parent="1"><mxGeometry x="8" y="1188" width="210" height="36" as="geometry" /></mxCell>
+
+        <!-- ═══════════════════════════════════════
+             SPIDER WEB NODES — RIGHT SIDE (x=870)
+        ═══════════════════════════════════════ -->
+
+        <!-- From Hotel OS -->
+        <mxCell id="os1" value="AI pricing + inventory agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;fontColor=#9d174d;strokeColor=#f9a8d4;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="198" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="os2" value="Negotiation agent — accepts traveler bids" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;fontColor=#9d174d;strokeColor=#f9a8d4;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="244" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="os3" value="Hotel dashboard + manual override" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf2f8;fontColor=#9d174d;strokeColor=#f9a8d4;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="290" width="205" height="36" as="geometry" /></mxCell>
+
+        <!-- From Mize -->
+        <mxCell id="mi1" value="Hotelfare optimization — post-booking reprice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;fontColor=#1e40af;strokeColor=#93c5fd;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="358" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="mi2" value="Room mapping — source of 40% savings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;fontColor=#1e40af;strokeColor=#93c5fd;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="404" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="mi3" value="Room mapping = seed of DaaS business" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;fontColor=#1e40af;strokeColor=#93c5fd;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="450" width="205" height="36" as="geometry" /></mxCell>
+
+        <!-- From Data Hub -->
+        <mxCell id="dh1" value="Static content + dynamic rates + inventory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;fontColor=#334155;strokeColor=#cbd5e1;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="753" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="dh2" value="Booking history + room mapping data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;fontColor=#334155;strokeColor=#cbd5e1;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="799" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="dh3" value="Powers all AI agents across the stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;fontColor=#334155;strokeColor=#cbd5e1;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="845" width="205" height="36" as="geometry" /></mxCell>
+
+        <!-- From Conciio -->
+        <mxCell id="co1" value="AI-to-AI negotiation layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="918" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="co2" value="Hotel OS agent ↔ Traveler agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="964" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="co3" value="Real-time transaction engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="1010" width="205" height="36" as="geometry" /></mxCell>
+
+        <!-- ═══════════════════════════════════════
+             MAIN FLOW ARROWS
+        ═══════════════════════════════════════ -->
+
+        <!-- Hotels → Hotel OS -->
+        <mxCell id="f1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#f59e0b;" edge="1" source="hotels" target="hotelOS" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Hotel OS → Parsec -->
+        <mxCell id="f2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#ec4899;" edge="1" source="hotelOS" target="parsec" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Hotel OS → Mize (dashed — data/config feed) -->
+        <mxCell id="f3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#ec4899;dashed=1;" edge="1" source="hotelOS" target="mize" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Parsec ↔ Mize (bidirectional optimization) -->
+        <mxCell id="f4" value="optimize" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;startArrow=block;startFill=1;strokeWidth=2.5;strokeColor=#6d28d9;fontStyle=2;fontSize=9;labelBackgroundColor=#f5f3ff;" edge="1" source="parsec" target="mize" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Parsec → Synthetic Rate -->
+        <mxCell id="f5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#8b5cf6;" edge="1" source="parsec" target="synRate" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Mize → Synthetic Rate -->
+        <mxCell id="f6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#3b82f6;" edge="1" source="mize" target="synRate" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Synthetic Rate → Data Hub -->
+        <mxCell id="f7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#f97316;" edge="1" source="synRate" target="dataHub" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Data Hub → Hotel Agents -->
+        <mxCell id="f8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#475569;" edge="1" source="dataHub" target="hotelAgents" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Data Hub → Conciio -->
+        <mxCell id="f9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#475569;" edge="1" source="dataHub" target="conciio" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Hotel Agents ↔ Conciio — KEY AI negotiation -->
+        <mxCell id="f10" value="⚡ AI negotiation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;startArrow=block;startFill=1;strokeWidth=3.5;strokeColor=#10b981;fontStyle=1;fontSize=11;labelBackgroundColor=#f0fdf4;" edge="1" source="hotelAgents" target="conciio" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Conciio → D2C -->
+        <mxCell id="f11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#10b981;" edge="1" source="conciio" target="d2c" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- ═══════════════════════════════════════
+             SPIDER WEB EDGES — LEFT
+        ═══════════════════════════════════════ -->
+        <mxCell id="eh1" style="endArrow=none;strokeColor=#fcd34d;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hotels" target="h1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eh2" style="endArrow=none;strokeColor=#fcd34d;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hotels" target="h2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eh3" style="endArrow=none;strokeColor=#fcd34d;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hotels" target="h3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="epa1" style="endArrow=none;strokeColor=#c4b5fd;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="parsec" target="pa1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="epa2" style="endArrow=none;strokeColor=#c4b5fd;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="parsec" target="pa2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="epa3" style="endArrow=none;strokeColor=#c4b5fd;strokeWidth=1;rounded=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="parsec" target="pa3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="esr1" style="endArrow=none;strokeColor=#fdba74;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="synRate" target="sr1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="esr2" style="endArrow=none;strokeColor=#fdba74;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="synRate" target="sr2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="esr3" style="endArrow=none;strokeColor=#fdba74;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="synRate" target="sr3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="ed1" style="endArrow=none;strokeColor=#a5f3fc;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="d2c" target="d1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ed2" style="endArrow=none;strokeColor=#a5f3fc;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="d2c" target="d2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ed3" style="endArrow=none;strokeColor=#a5f3fc;strokeWidth=1;rounded=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="d2c" target="d3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- ═══════════════════════════════════════
+             SPIDER WEB EDGES — RIGHT
+        ═══════════════════════════════════════ -->
+        <mxCell id="eos1" style="endArrow=none;strokeColor=#f9a8d4;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hotelOS" target="os1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eos2" style="endArrow=none;strokeColor=#f9a8d4;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hotelOS" target="os2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eos3" style="endArrow=none;strokeColor=#f9a8d4;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hotelOS" target="os3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="emi1" style="endArrow=none;strokeColor=#93c5fd;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mize" target="mi1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="emi2" style="endArrow=none;strokeColor=#93c5fd;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mize" target="mi2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="emi3" style="endArrow=none;strokeColor=#93c5fd;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mize" target="mi3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="edh1" style="endArrow=none;strokeColor=#94a3b8;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="dataHub" target="dh1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="edh2" style="endArrow=none;strokeColor=#94a3b8;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="dataHub" target="dh2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="edh3" style="endArrow=none;strokeColor=#94a3b8;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="dataHub" target="dh3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="eco1" style="endArrow=none;strokeColor=#6ee7b7;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="conciio" target="co1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eco2" style="endArrow=none;strokeColor=#6ee7b7;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="conciio" target="co2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="eco3" style="endArrow=none;strokeColor=#6ee7b7;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="conciio" target="co3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- ═══════════════════════════════════════
+             SHAPE LEGEND (bottom right)
+        ═══════════════════════════════════════ -->
+        <mxCell id="lg_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#e2e8f0;strokeWidth=1;shadow=1;" vertex="1" parent="1"><mxGeometry x="1100" y="40" width="270" height="330" as="geometry" /></mxCell>
+        <mxCell id="lg_title" value="Shape Guide" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontStyle=1;fontSize=13;fontColor=#1e293b;" vertex="1" parent="1"><mxGeometry x="1100" y="44" width="270" height="24" as="geometry" /></mxCell>
+        <mxCell id="lg1" value="Parallelogram = Supply Input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#f59e0b;fontColor=#fff;strokeColor=#d97706;fontSize=9;" vertex="1" parent="1"><mxGeometry x="1115" y="78" width="190" height="32" as="geometry" /></mxCell>
+        <mxCell id="lg2" value="Rounded Rect = AI Platform / Product" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ec4899;fontColor=#fff;strokeColor=#db2777;fontSize=9;" vertex="1" parent="1"><mxGeometry x="1115" y="122" width="190" height="32" as="geometry" /></mxCell>
+        <mxCell id="lg3" value="Cylinder = Booking Engine" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#8b5cf6;fontColor=#fff;strokeColor=#7c3aed;fontSize=9;boundedLbl=1;backgroundOutline=1;size=6;" vertex="1" parent="1"><mxGeometry x="1115" y="166" width="190" height="36" as="geometry" /></mxCell>
+        <mxCell id="lg4" value="Diamond = Rate Intelligence" style="rhombus;whiteSpace=wrap;html=1;fillColor=#3b82f6;fontColor=#fff;strokeColor=#2563eb;fontSize=9;" vertex="1" parent="1"><mxGeometry x="1115" y="212" width="190" height="52" as="geometry" /></mxCell>
+        <mxCell id="lg5" value="Hexagon = Data / Innovation Layer" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#f97316;fontColor=#fff;strokeColor=#ea580c;fontSize=9;fixedSize=1;size=10;" vertex="1" parent="1"><mxGeometry x="1115" y="274" width="200" height="46" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
