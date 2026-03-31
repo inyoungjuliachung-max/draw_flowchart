@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <mxfile version="21.0.0" host="app.diagrams.net">
   <diagram id="yanolja-platform-flow" name="Yanolja Platform Flow">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1500" math="0" shadow="1">
@@ -24,7 +24,7 @@
         <mxCell id="lbl2" value="AI PLATFORM" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#9d174d;" vertex="1" parent="1"><mxGeometry x="14" y="165" width="130" height="16" as="geometry" /></mxCell>
         <mxCell id="lbl3" value="BOOKING ENGINE + RATE INTELLIGENCE" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#5b21b6;" vertex="1" parent="1"><mxGeometry x="14" y="316" width="290" height="16" as="geometry" /></mxCell>
         <mxCell id="lbl4" value="⭐  KEY INNOVATION — SYNTHETIC RATE LAYER" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#9a3412;" vertex="1" parent="1"><mxGeometry x="14" y="559" width="330" height="16" as="geometry" /></mxCell>
-        <mxCell id="lbl5" value="DATA FOUNDATION" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#334155;" vertex="1" parent="1"><mxGeometry x="14" y="717" width="150" height="16" as="geometry" /></mxCell>
+  2     <mxCell id="lbl5" value="DATA FOUNDATION" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#334155;" vertex="1" parent="1"><mxGeometry x="14" y="717" width="150" height="16" as="geometry" /></mxCell>
         <mxCell id="lbl6" value="AI NEGOTIATION LAYER" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#065f46;" vertex="1" parent="1"><mxGeometry x="14" y="895" width="190" height="16" as="geometry" /></mxCell>
         <mxCell id="lbl7" value="D2C CONSUMER LAYER" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontStyle=1;fontSize=9;fontColor=#0e7490;" vertex="1" parent="1"><mxGeometry x="14" y="1083" width="180" height="16" as="geometry" /></mxCell>
 
@@ -82,7 +82,7 @@
         </mxCell>
 
         <!-- 8. Conciio — pill, green -->
-        <mxCell id="conciio" value="✈️  Conciio&#xa;Traveler-side AI"
+        <mxCell id="conciio" value="✈️  Conciio&#xa;AI Trip Planner + Booking Agent"
           style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#10b981;fontColor=#ffffff;strokeColor=#059669;fontSize=12;fontStyle=1;shadow=1;"
           vertex="1" parent="1">
           <mxGeometry x="655" y="925" width="210" height="70" as="geometry" />
@@ -139,9 +139,9 @@
         <mxCell id="dh3" value="Powers all AI agents across the stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;fontColor=#334155;strokeColor=#cbd5e1;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="845" width="205" height="36" as="geometry" /></mxCell>
 
         <!-- From Conciio -->
-        <mxCell id="co1" value="AI-to-AI negotiation layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="918" width="205" height="36" as="geometry" /></mxCell>
-        <mxCell id="co2" value="Hotel OS agent ↔ Traveler agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="964" width="205" height="36" as="geometry" /></mxCell>
-        <mxCell id="co3" value="Real-time transaction engine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="1010" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="co1" value="Negotiates best price via Hotel OS agents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="918" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="co2" value="Reads Passport — preferences + trip history" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="964" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="co3" value="Sources hotel + POI data from GAIA Hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="1010" width="205" height="36" as="geometry" /></mxCell>
 
         <!-- ═══════════════════════════════════════
              MAIN FLOW ARROWS
@@ -172,7 +172,7 @@
         <mxCell id="f8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#475569;" edge="1" source="dataHub" target="hotelAgents" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
 
         <!-- Data Hub → Conciio -->
-        <mxCell id="f9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#475569;" edge="1" source="dataHub" target="conciio" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="f9" value="GAIA Hub" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2.5;strokeColor=#475569;" edge="1" source="dataHub" target="conciio" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
 
         <!-- Hotel Agents ↔ Conciio — KEY AI negotiation -->
         <mxCell id="f10" value="⚡ AI negotiation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;startArrow=block;startFill=1;strokeWidth=3.5;strokeColor=#10b981;fontStyle=1;fontSize=11;labelBackgroundColor=#f0fdf4;" edge="1" source="hotelAgents" target="conciio" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
@@ -229,6 +229,10 @@
         <mxCell id="lg4" value="Diamond = Rate Intelligence" style="rhombus;whiteSpace=wrap;html=1;fillColor=#3b82f6;fontColor=#fff;strokeColor=#2563eb;fontSize=9;" vertex="1" parent="1"><mxGeometry x="1115" y="212" width="190" height="52" as="geometry" /></mxCell>
         <mxCell id="lg5" value="Hexagon = Data / Innovation Layer" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#f97316;fontColor=#fff;strokeColor=#ea580c;fontSize=9;fixedSize=1;size=10;" vertex="1" parent="1"><mxGeometry x="1115" y="274" width="200" height="46" as="geometry" /></mxCell>
 
+
+        <mxCell id="co4" value="Plans perfect trip + books end-to-end" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecfdf5;fontColor=#065f46;strokeColor=#6ee7b7;fontSize=10;" vertex="1" parent="1"><mxGeometry x="870" y="1056" width="205" height="36" as="geometry" /></mxCell>
+        <mxCell id="eco4" style="endArrow=none;strokeColor=#6ee7b7;strokeWidth=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="conciio" target="co4" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="fPassport" value="Passport data" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeWidth=1.5;strokeColor=#06b6d4;dashed=1;fontStyle=2;fontSize=10;labelBackgroundColor=#ecfeff;" edge="1" source="d2c" target="conciio" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
       </root>
     </mxGraphModel>
   </diagram>
